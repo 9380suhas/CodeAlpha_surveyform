@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="survey.css" rel="stylesheet">
+</head>
+<body>
+    HTML CSS Result Skip Results Iframe
+<h1 id="title"> SURVEY FORM:- </h1>
+<form action="https://formspree.io/f/xnqkdqqw" method="POST" >
+  <div class="form-control"  >
+    <label for="name" id="label-name">
+      Name
+    </label>
+    <input type="text" id="name" placeholder="Enter your name" />
+  </div>
+  <div class="form-control">
+    <label for="email" id="label-email">
+      Email
+    </label>
+    <input type="email" id="email" placeholder="Enter your email" />
+  </div>
+  <div class="form-control">
+    <label for="age" id="label-age">
+      Age
+    </label>
+    <input type="number" id="age" placeholder="Enter your age" />
+  </div>
+  
+  <div class="form-control">
+    <label for="role" id="label-role">
+      which states you belog to..
+    </label>
+    <select name="role" id="role">
+      <option value="student">karnataka</option>
+      <option value="intern">Andra pradesh</option>
+      <option value="professional">tamilnadu</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-control">
+    <label id="label-attendance">
+     gender
+    </label>
+    <label for="attend-1" id="label-attend-1">
+      <input type="radio" id="attend-1" name="attend">male</input>
+    </label>
+    <label for="attend-2" id="label-attend-2">
+      <input type="radio" id="attend-2" name="attend">female</input>
+    </label>
+  </div>
+
+  <div class="form-control">
+    <label>interested in the field</label>
+    <br>
+    <label for="inp-1">
+      <input type="checkbox" name="inp">programming</input>
+    </label>
+    <br>
+    <label for="inp-2">
+      <input type="checkbox" name="inp">animation</input>
+    </label>
+    <br>
+    <label for="inp-3">
+      <input type="checkbox" name="inp">gaming</input>
+    </label>
+    <br>
+    <label for="inp-4">
+      <input type="checkbox" name="inp">software field</input>
+    </label>
+    <br>
+    <label for="inp-5">
+      <input type="checkbox" name="inp">hotel managemtnt</input>
+    </label>
+    <br>
+    <label for="inp-6">
+      <input type="checkbox" name="inp">others</input>
+    </label>
+  </div>
+
+
+  <div class="form-control">
+    <label for="comment">
+      write about yourself
+    </label>
+    <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+  </div>
+
+<div class="button">
+  <button type="reset" value="reset" id="reset">
+    Reset
+  </button>
+  <button type="submit" value="submit" id="submit">
+    Submit
+  </button>
+</div>
+</form>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail()
+    {
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "suhas B S",
+    Password : "suhas123@",
+    To : 'suhasbs229@gmail.com',
+    From : document.getElementById(),
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+    }
+</script>
+    
+</body>
+</html>
