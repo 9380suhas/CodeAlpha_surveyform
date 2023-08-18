@@ -41,7 +41,7 @@ form {
   font-family: 'Montserrat';
   resize: vertical;
   width : 75%;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
   border-radius: 20px;
   margin-left: 2px;
 
@@ -49,10 +49,14 @@ form {
 
 textarea {
   padding: 2%;
+  margin-bottom: px;
+  border-radius: 20px;
 }
 .button{
     display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 button {
   margin: .5em;
@@ -60,12 +64,18 @@ button {
   border: none;
   padding: 8px;
   border-radius: 2px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 #reset{
   background-color: #EBD671;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 #submit{
   background-color: #85C88A;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 #reset:hover, #submit:hover{
   border-right: solid 4px lightgray;
